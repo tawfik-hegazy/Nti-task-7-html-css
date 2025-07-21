@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: #1e1e2f;
+  color: #fff;
+  min-height: 100vh;
+}
+
+nav {
+  background: #111827;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+nav a {
+  color: #ddd;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #0ea5e9;
+}
+
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  background: #2a2a40;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #000;
+}
+
+aside {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+aside img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px 0;
+  border: 3px solid #0ea5e9;
+}
+
+aside a {
+  color: #0ea5e9;
+  display: block;
+  padding: 8PX;
+  margin: 10px;
+  border-radius: 10px;
+  border-color: #0ea5e9;
+  background-color: #0ea5e9;
+  font-weight:bolder;
+  color: #070707;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100px;
+  margin: 10px auto;
+  
+
+}
+aside a:hover{
+background-color: #6685ce;
+}
+
+aside label,
+aside input {
+  margin: 10px 0;
+  display: block;
+}
+
+aside button {
+  padding: 10px ;
+  background: #b81d1d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+aside button:hover {
+  background: #791212;
+}
+
+article {
+  flex: 2;
+  min-width: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 10px 0 5px;
+}
+
+form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  background: #1e293b;
+  color: white;
+}
+
+form input::placeholder {
+  color: #ccc;
+}
+
+form button {
+  padding: 5px;
+  background: #0ea5e9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 80px;
+}
+
+form button:hover {
+  background: #0284c7;
+}
